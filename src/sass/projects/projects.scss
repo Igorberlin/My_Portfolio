@@ -17,6 +17,7 @@
         flex-direction: row;
         flex-wrap: wrap;
             margin: auto;
+            justify-content: center;
         
         .before-after-project{
             @extend.container;
@@ -61,4 +62,21 @@
         }
     }
     
+}
+
+@media screen and (max-width: 600px) {
+    .projects-container .projects-item .burger-menu-project,
+    .projects-container .projects-item .before-after-project,
+    .projects-container .projects-item .burger-menu-project,
+    .projects-container .projects-item .phone-book-project,
+    .projects-container .projects-item .to-do-project
+    {
+        width: 270px;
+        height: 200px;
+    }   
+
+}
+
+@media screen and (max-width: 420px) {
+
 }

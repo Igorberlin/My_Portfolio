@@ -20,8 +20,15 @@
 }
 .active {
     color: rgb(163, 162, 214) !important;
+    
 }
 
+@media screen and (max-width: 840px) {
+
+    .app-nav {
+        justify-content: center;
+    }
+}
 @media screen and (max-width: 600px) {
 
     .app-nav {
