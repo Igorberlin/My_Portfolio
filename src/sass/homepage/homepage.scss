@@ -83,7 +83,17 @@
     transition: all 500ms ease-in;
 }
 
-@media screen and (max-width: 1090px) {
-    .homepage-container .homepage-item{
+@media screen and (max-width: 600px) {
+    .photo-container, .about-me-text-container {
+        width: 400px;}
+    .about-me-text-container p {
+        font-size: 16px;}
+}
+
+@media screen and (max-width: 420px) {
+
+    .photo-container,
+    .about-me-text-container {
+        width: 300px;
     }
 }

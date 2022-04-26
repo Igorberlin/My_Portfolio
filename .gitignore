@@ -4,6 +4,9 @@ node_modules
 ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
 
+# production
+/build
+
 # read 
 /src/main/resources/application.yml
 
