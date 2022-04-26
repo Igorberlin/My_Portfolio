@@ -6,6 +6,54 @@
     margin: 10px auto;
     justify-content: space-between;
 }
+@media screen and (max-width:1016px) {
+    .main-section {
+        width: 910px;
+    }
+}
+@media screen and (max-width:912px) {
+    .main-section {
+        width: 1100px;
+    }
+    .main-content-sections .about-me-section{
+        width: 350px;
+    }
+    .my-work-experience-company-block{
+        width: 350px;
+    }
+    .my-education-section{
+        width: 350px;
+    }
+    .my-work-experience-section{
+        width: 350px;
+    }
+}
+@media screen and (max-width:664px) {
+    .main-section {
+        width: 1030px;
+    }
+    .main-section .sidebar-section{
+        width: 240px;
+    }
+    .sidebar-section img{
+        width: 240px;
+    }
+        .main-content-sections .about-me-section {
+            width: 300px;
+        }
+        
+        .my-work-experience-company-block {
+            width: 350px;
+        }
+        
+        .my-education-section {
+            width: 350px;
+        }
+        
+        .my-work-experience-section {
+            width: 350px;
+        }
+}
 
 /* Main content section */
 

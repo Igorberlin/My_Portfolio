@@ -31,21 +31,20 @@ const Home = () => {
                 >
                     <div className="about-me-text-container">
                         <p>Welcome!!!</p>
-                        <p>I am very glad that you visited my page</p>
+                        <p>Thank you for visiting my page.</p>
                         <h2>
                             My name is Igor,
-                            <br /> I am a front end developer
+                            <br /> I am a front end developer.
                         </h2>
                         <p>
-                            Since 2011 I living in Berlin. I started developing
-                            in May 2021. I am a creative person, I like to
-                            create a user interface, I like to develop
-                            components for the site and visualize my work. In
-                            November 2021, I have finished one of the best
-                            International IT technology schools: Tel-Ran GmbH,
-                            where I got a professional degree in Fullstack Web
-                            Development and Testing. On my page you will find
-                            some information about me,{" "}
+                            I've been living in Berlin since 2011. I started
+                            studying IT in May 2021. I like to create a user
+                            interface, develop components for the site and
+                            visualize my work. In November 2021 I finished one
+                            of the best International IT technology schools:
+                            Tel-Ran GmbH, where I got a professional degree in
+                            Fullstack Web Development and Testing. On my page
+                            you will find some information about me,{" "}
                             <Link
                                 to="/projects"
                                 style={{ color: "rgb(250, 175, 12)" }}
