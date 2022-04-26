@@ -12,6 +12,9 @@
   flex-wrap: wrap;
   justify-content: space-around;
   width: 700px;
+    .cv-link{
+      text-decoration: none;
+    }
     .cv-de {
       &:hover{
         cursor: pointer;
@@ -30,6 +33,25 @@
         height: 210px;
       }
     }
+    .Cv-title{
+      font-size: 30px;
+      color: white;
+    }
   }
   
+}
+@media screen and (max-width:700px ){
+  .cv-container .cv-display-container{
+    justify-content: center;
+    min-width: 350px;
+  }
+  .cv-container .cv-display-container .cv-de img{
+    width: 150px;
+    height: 150px;
+  }
+  .cv-container .cv-display-container .cv-eng img{
+    width: 160px;
+    height: 150px;
+    margin-left: 30px;
+  }
 }
