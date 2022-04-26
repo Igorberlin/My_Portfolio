@@ -13,11 +13,14 @@ const Content = () => {
         <div className="main">
             <Routes>
                 <Route path="/projects" element={<Projects />} />
-                <Route path="/" element={<Home />} />
+                <Route path="/My_Portfolio" element={<Home />} />
                 <Route path="/cv" element={<CvContainer />} />
                 <Route path="/cv/cv-de" element={<Cv />} />
                 <Route path="/cv/cv-eng" element={<CvEng />} />
-                <Route path="*" element={<Navigate to="/" replace={true} />} />
+                <Route
+                    path="*"
+                    element={<Navigate to="/My_Portfolio" replace={true} />}
+                />
             </Routes>
         </div>
     );
