@@ -1,0 +1,42 @@
+//text colors
+$text-color: white;
+$link-color:rgb(250, 175, 12);
+
+//text size
+$text10: 10px;
+$text12: 12px;
+$text14: 14px;
+$text16: 16px;
+$text20: 20px;
+$text22: 22px;
+$text32: 32px;
+$text56: 56px;
+//projects
+.container{
+    margin: 10px 10px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.link{
+    text-decoration: none;
+    font-size: $text32;
+    color: $link-color;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.507);
+    
+    a {
+        font-size: 34px;
+        transition: 0.5s linear;
+    }
+}

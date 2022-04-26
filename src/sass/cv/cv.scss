@@ -1,0 +1,35 @@
+.cv-container{
+  display: flex;
+  background:url("./../../img/cv-background-img.jpeg") center center no-repeat;
+  background-size: cover;
+  height: calc(100vh - 121.6px);
+  background-attachment: fixed;
+
+
+  .cv-display-container{
+  margin: auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 700px;
+    .cv-de {
+      &:hover{
+        cursor: pointer;
+      }
+      img{
+        width: 200px;
+        height: 200px;
+      }
+    }
+    .cv-eng {
+      &:hover {
+        cursor: pointer;
+      }
+      img {
+        width: 210px;
+        height: 210px;
+      }
+    }
+  }
+  
+}

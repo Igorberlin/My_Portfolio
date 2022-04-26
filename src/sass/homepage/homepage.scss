@@ -1,0 +1,89 @@
+@import "./../variables.scss";
+
+.homepage-container{
+    background-image:  url("./../../img/bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: calc(100vh - 121.6px);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+}
+
+    .homepage-item{
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .photo-container{
+        width:550px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        img{
+            width: 100%;
+            border-radius: 15px;
+        -webkit-box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.64);
+        box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.64);
+        }
+    }
+
+    .about-me-text-container{
+        width: 550px;
+        font-family: 'Zen Antique Soft',
+        serif;
+        text-align: left;
+        margin-bottom: 15px;
+
+        h2{
+            color: $link-color;
+        }
+        p{
+            font-size: 20px;
+            color: $text-color;
+        }
+    }
+.homepage-photo-transition-enter {
+    transform: translateX(-350px);
+}
+
+.homepage-photo-transition-enter-active {
+    transform: translateX(0px);
+    transition: all 1200ms ease-in-out;
+}
+
+.homepage-photo-transition-exit {
+    opacity: 1;
+}
+
+.homepage-photo-transition-exit-active {
+    transform: translateX(-350px);
+    transition: all 500ms ease-in;
+}
+.homepage-about-transition-enter {
+    transform: translateX(350px);
+}
+
+.homepage-about-transition-enter-active {
+    transform: translateX(0px);
+    transition: all 1200ms ease-in-out;
+}
+
+.homepage-about-transition-exit {
+    opacity: 1;
+}
+
+.homepage-about-transition-exit-active {
+    transform: translateX(350px);
+    transition: all 500ms ease-in;
+}
+
+@media screen and (max-width: 1090px) {
+    .homepage-container .homepage-item{
+    }
+}

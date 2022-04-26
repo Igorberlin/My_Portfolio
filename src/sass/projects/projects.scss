@@ -1,0 +1,64 @@
+@import "../variables.scss";
+
+.projects-container{
+    background-image: url("./../../img//home-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: calc(100vh - 121.6px);
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+
+    .projects-item{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+            margin: auto;
+        
+        .before-after-project{
+            @extend.container;
+            background-image: url("./../../img/before-after.png");
+            a {
+                @extend.link;
+            }
+            &:hover .hidden-bg {
+                @extend.bg;
+            }
+        }
+        .burger-menu-project{
+            @extend.container;
+            background-image: url("./../../img/burger-menu.jpg");
+            a {
+                @extend.link;
+            }
+            &:hover .hidden-bg {
+            @extend.bg;
+        }
+        }
+        .phone-book-project{
+            @extend.container;
+            background-image: url("./../../img/phone-book.png");
+            a {
+                @extend.link;
+            }
+            &:hover .hidden-bg {
+                @extend.bg;
+            }
+        }
+        .to-do-project{
+            @extend.container;
+            background-image: url("./../../img/to-do.png");
+            
+            a {
+                @extend.link;
+            }
+            &:hover .hidden-bg {
+                @extend.bg;
+            }
+        }
+    }
+    
+}
