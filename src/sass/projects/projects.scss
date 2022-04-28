@@ -51,20 +51,25 @@
     }
     
 
-
-@media screen and (max-width: 600px) {
-    .projects-container .projects-item .burger-menu-project,
-    .projects-container .projects-item .before-after-project,
-    .projects-container .projects-item .burger-menu-project,
-    .projects-container .projects-item .phone-book-project,
-    .projects-container .projects-item .to-do-project
-    {
-        width: 270px;
-        height: 200px;
-    }   
-
-}
-
-@media screen and (max-width: 420px) {
-
+@media screen and (max-width: 590px) {
+    .projects-container .projects-item .container{
+        width:370px;
+    }
+    .projects-container .projects-item .container .project-body {
+        height: 260px;
+    }
+    .projects-container .projects-item .container .project-body img{
+        width:340px;
+        height: 250px;
+    }
+    .projects-container .projects-item .container .project-body img:hover{
+        width:360px;
+        height: 260px;
+    }
+    .projects-container .projects-item .container .project-footer{
+        margin-bottom: 30px;
+    }
+    .projects-container .projects-item .container .project-footer p{
+        font-size: 15px;
+    }
 }

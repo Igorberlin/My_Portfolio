@@ -40,6 +40,11 @@
   }
   
 }
+@media screen and (max-width:1430px){
+    .main .cv-container .cv-display-container{
+      height: 150px;
+    }
+}
 @media screen and (max-width:700px ){
   .cv-container .cv-display-container{
     justify-content: center;

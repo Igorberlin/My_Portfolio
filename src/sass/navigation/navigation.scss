@@ -23,7 +23,12 @@
     }
 }
 
+@media screen and (max-width: 1230px) {
 
+    .app-nav {
+        justify-content: center;
+    }
+}
 @media screen and (max-width: 840px) {
 
     .app-nav {
