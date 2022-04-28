@@ -1,68 +1,56 @@
 @import "../variables.scss";
 
 .projects-container{
-    background-image: url("./../../img//home-bg.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: calc(100vh - 121.6px);
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: auto;
+    background-color: rgb(55, 66, 121);
 
     .projects-item{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-            margin: auto;
             justify-content: center;
-        
-        .before-after-project{
-            @extend.container;
-            background-image: url("./../../img/before-after.png");
-            a {
-                @extend.link;
-            }
-            &:hover .hidden-bg {
-                @extend.bg;
-            }
-        }
-        .burger-menu-project{
-            @extend.container;
-            background-image: url("./../../img/burger-menu.jpg");
-            a {
-                @extend.link;
-            }
-            &:hover .hidden-bg {
-            @extend.bg;
-        }
-        }
-        .phone-book-project{
-            @extend.container;
-            background-image: url("./../../img/phone-book.png");
-            a {
-                @extend.link;
-            }
-            &:hover .hidden-bg {
-                @extend.bg;
-            }
-        }
-        .to-do-project{
-            @extend.container;
-            background-image: url("./../../img/to-do.png");
-            
-            a {
-                @extend.link;
-            }
-            &:hover .hidden-bg {
-                @extend.bg;
+        .container{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1f;
+            align-content: space-between;
+            margin: 10px 10px;
+            width: 600px;
+            height: 400px;
+            border: 3px solid rgb(163, 162, 214);
+            border-radius: 10px;
+                .project-header {
+                    height: 30px;
+                    color :$link-color;
+                    h2{
+                        margin-top: 5px;
+                    }
+                }
+                
+                .project-body {
+                    height: 300px;
+                    img{
+                        width: 550px;
+                        height: 250px;
+                    }
+                }
+                .project-body img:hover{
+                    width:590px;
+                    height: 300px;
+                    transition: 0.8s ;
+                }
+                
+                .project-footer {
+                    p{
+                        color:$link-color;
+                        font-size: 20px;
+                            font-weight: 700;
+                    }
+                }
             }
         }
     }
     
-}
+
 
 @media screen and (max-width: 600px) {
     .projects-container .projects-item .burger-menu-project,

@@ -5,7 +5,7 @@ const Navigation = () => {
     return (
         <ul className="app-nav">
             <li>
-                <NavLink to="/"> Home</NavLink>
+                <NavLink to="/My_Portfolio"> Home</NavLink>
             </li>
             <li>
                 <NavLink to="/projects"> Projects</NavLink>

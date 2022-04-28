@@ -17,11 +17,12 @@
     li a:hover{
         cursor: pointer;
     }
-}
-.active {
-    color: rgb(163, 162, 214) !important;
+    .active {
+        color: rgb(163, 162, 214) !important;
     
+    }
 }
+
 
 @media screen and (max-width: 840px) {
 

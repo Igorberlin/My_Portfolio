@@ -6,8 +6,6 @@ import CvEng from "../cv/CvEng";
 import Home from "../homepage/Home";
 import Projects from "../projectsComponent/Projects";
 
-import "./../../sass/content/content.scss";
-
 const Content = () => {
     return (
         <div className="main">
