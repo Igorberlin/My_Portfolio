@@ -9,20 +9,38 @@ const CvContainer = () => {
     return (
         <div className="cv-container">
             <div className="cv-display-container">
-                <Link to="/cv/cv-de" className="cv-link">
-                    <div className="cv-de">
-                        <img src={De} alt="De-flag-img" />
-                    </div>
-
+                <div>
+                    <Link to="/cv/cv-de" className="cv-link">
+                        <div className="cv-de">
+                            <img src={De} alt="De-flag-img" />
+                        </div>
+                    </Link>
                     <p className="Cv-title">German</p>
-                </Link>
-                <Link to="/cv/cv-eng" className="cv-link">
-                    <div className="cv-eng">
-                        <img src={Eng} alt="Eng-flag-img" />
+                    <div className="cv-download">
+                        <a
+                            href="https://drive.google.com/file/d/1b_PWSwqaXOTxVTu1wZ6d9OKr3OpGIpmp/view?usp=sharing"
+                            target="_blank"
+                        >
+                            save as PDF
+                        </a>
                     </div>
-
+                </div>
+                <div>
+                    <Link to="/cv/cv-eng" className="cv-link">
+                        <div className="cv-eng">
+                            <img src={Eng} alt="Eng-flag-img" />
+                        </div>
+                    </Link>
                     <p className="Cv-title">English</p>
-                </Link>
+                    <div className="cv-download">
+                        <a
+                            href="https://drive.google.com/file/d/19g0KKi4FVj2eKdWbfJLCBwANQOOXFTC4/view?usp=sharing"
+                            target="_blank"
+                        >
+                            save as PDF
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     );
