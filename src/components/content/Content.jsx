@@ -1,5 +1,6 @@
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
+import Contacts from "../Contacts/Contacts";
 import Cv from "../cv/Cv";
 import CvContainer from "../cv/CvContainer";
 import CvEng from "../cv/CvEng";
@@ -15,6 +16,7 @@ const Content = () => {
                 <Route path="/cv" element={<CvContainer />} />
                 <Route path="/cv/cv-de" element={<Cv />} />
                 <Route path="/cv/cv-eng" element={<CvEng />} />
+                <Route path="/contacts" element={<Contacts />} />
                 <Route
                     path="*"
                     element={<Navigate to="/My_Portfolio" replace={true} />}

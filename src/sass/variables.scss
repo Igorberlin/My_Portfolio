@@ -1,6 +1,27 @@
 //text colors
 $text-color: white;
 $link-color:rgb(250, 175, 12);
+$text-color-lila:rgb(190, 190, 229);
+
+.text-shadow{
+    color: #94B5E8;
+    text-shadow: -0 -1px 1px #000000,
+    0 -1px 1px #000000,
+    -0 1px 1px #000000,
+    0 1px 1px #000000,
+    -1px -0 1px #000000,
+    1px -0 1px #000000,
+    -1px 0 1px #000000,
+    1px 0 1px #000000,
+    -1px -1px 1px #000000,
+    1px -1px 1px #000000,
+    -1px 1px 1px #000000,
+    1px 1px 1px #000000,
+    -1px -1px 1px #000000,
+    1px -1px 1px #000000,
+    -1px 1px 1px #000000,
+    1px 1px 1px #000000;
+}
 
 //text size
 $text10: 10px;

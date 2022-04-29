@@ -31,6 +31,19 @@ const Cv = () => {
                 </div>
 
                 <div className="my-work-experience-section">
+                    <h3 class="main-content-title"> Projekte</h3>
+                    <ul class="my-work-experience-duties">
+                        <li class="my-work-experience-duty">
+                            <a
+                                href="https://Igorberlin.github.io/My_Portfolio"
+                                target="blank"
+                            >
+                                https://Igorberlin.github.io/My_Portfolio
+                            </a>
+                            .......[Portfolio]
+                        </li>
+                    </ul>
+                    <br />
                     <h3 className="main-content-title"> Berufserfahrung</h3>
 
                     <div className="my-work-experience-company-block">

@@ -19,6 +19,9 @@
             font-size:$text14 ;
             color:$text-color;
         }
+        a:hover{
+            color:$link-color;
+        }
     }
     .footer-copyright p{
         padding-bottom: 10px;

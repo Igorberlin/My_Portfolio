@@ -1,14 +1,14 @@
 const projects = [
     {
         id: 1,
-        title: "Meals Project",
+        title: "Meals",
         link: "https://Igorberlin.github.io/Meals_Project/",
         description: "Bootstrap, React, React-dom, Api from www.themealdb.com",
         image: "https://i.imgur.com/q1jR4k2.jpg",
     },
     {
         id: 2,
-        title: "Books Project",
+        title: "Books Library",
         link: "https://Igorberlin.github.io/Books_Project",
         description:
             "Bootstrap, React, React-router-dom, Redux, Redux-logger, Redux-thunk, React-yup, React-cool-form",
@@ -16,7 +16,7 @@ const projects = [
     },
     {
         id: 3,
-        title: "Food Category Project",
+        title: "Food Category",
         link: "https://Igorberlin.github.io/Food_Category_Project/",
         description:
             "Bootstrap, React, React-dom, React-router-dom, React Hooks (useState, useEffect),Api from www.themealdb.com",
@@ -32,7 +32,7 @@ const projects = [
     },
     {
         id: 5,
-        title: "Photo Gallery Project",
+        title: "Photo Gallery",
         link: "https://Igorberlin.github.io/Photo_Gallery_Project/",
         description:
             "Bootstrap, Bootstrap Icons, React, React-dom, React-router-dom, React Hooks (useState, useContext),React context",
@@ -40,7 +40,7 @@ const projects = [
     },
     {
         id: 6,
-        title: "Recipes Project",
+        title: "Recipes",
         link: "https://igorberlin.github.io/Recipes_Project/",
         description:
             "HTML and CSS /The position Property, flex-box, Google Fonts, Animate.css, @keyframes, CSS @media Rule, mobile adaptive",
@@ -48,7 +48,7 @@ const projects = [
     },
     {
         id: 7,
-        title: "TinyOne Project",
+        title: "TinyOne Page",
         link: "https://igorberlin.github.io/TinyOne_Project/",
         description:
             "HTML and CSS, Google Fonts, Animate.css, Bootstrap, Font Awesome Icons, mobile adaptive",
@@ -84,7 +84,7 @@ const projects = [
     },
     {
         id: 12,
-        title: "Phone Book Project",
+        title: "Phone Book",
         link: "https://igorberlin.github.io/phone_book_project/",
         description: "HTML, CSS, JS",
         image: "https://i.imgur.com/xJT0O3r.jpg",

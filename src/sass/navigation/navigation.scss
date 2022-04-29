@@ -16,9 +16,10 @@
     }
     li a:hover{
         cursor: pointer;
+        color:$link-color;
     }
     .active {
-        color: rgb(163, 162, 214) !important;
+        color: $text-color-lila !important;
     
     }
 }
