@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "./../../img/Profile.jpg";
+import Photo from "./../../img/Photo.jpg";
 
 import "./../../sass/cv/cv-eng.scss";
 
