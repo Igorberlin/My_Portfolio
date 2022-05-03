@@ -1,5 +1,6 @@
 import React from "react";
 import Photo from "./../../img/Photo.jpg";
+import Qr from "./../../img/Qr.JPG";
 import "./../../sass/cv/cv-eng.scss";
 
 const Cv = () => {
@@ -31,17 +32,22 @@ const Cv = () => {
                 </div>
 
                 <div className="my-work-experience-section">
-                    <h3 class="main-content-title"> Projekte</h3>
-                    <ul class="my-work-experience-duties">
-                        <li class="my-work-experience-duty">
-                            <a
-                                href="https://Igorberlin.github.io/My_Portfolio"
-                                target="blank"
-                            >
-                                https://Igorberlin.github.io/My_Portfolio
-                            </a>
-                            .......[Portfolio]
-                        </li>
+                    <h3 className="main-content-title-qr"> Projekte</h3>
+                    <ul className="my-work-experience-duties-qr">
+                        <div className="my-work-experience-duties-qr">
+                            <div className="my-work-experience-duty">
+                                <a
+                                    href="https://Igorberlin.github.io/My_Portfolio"
+                                    target="blank"
+                                >
+                                    https://Igorberlin.github.io/My_Portfolio
+                                </a>
+                                .......[Portfolio]
+                            </div>
+                            <div className="my-work-experience-duty">
+                                <img src={Qr} className="qr-code" />
+                            </div>
+                        </div>
                     </ul>
                     <br />
                     <h3 className="main-content-title"> Berufserfahrung</h3>

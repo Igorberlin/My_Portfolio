@@ -6,14 +6,14 @@
     margin: 10px auto;
     justify-content: space-between;
 }
-@media screen and (max-width:1016px) {
+@media screen and (max-width:1202px) {
     .main-section {
         width: 910px;
     }
 }
 @media screen and (max-width:912px) {
     .main-section {
-        width: 1100px;
+        width: 735px;
     }
     .main-content-sections .about-me-section{
         width: 350px;
@@ -26,6 +26,11 @@
     }
     .my-work-experience-section{
         width: 350px;
+    }
+}
+@media screen and (max-width:745px) {
+    .main-section {
+        width: 665px;
     }
 }
 @media screen and (max-width:664px) {
@@ -191,6 +196,16 @@
     font-size: 20px;
     line-height: 24px;
     color: black;
+}
+.my-work-experience-duties-qr {
+    display: flex;
+    align-items: center;
+    padding-left: 0px !important;
+}
+
+.my-work-experience-duty .qr-code {
+    width: 90px;
+    margin-left: 10px;
 }
 
 .my-work-experience-divider {
