@@ -34,8 +34,11 @@
     }
 }
 @media screen and (max-width:664px) {
+    .App{
+        width: fit-content;
+    }
     .main-section {
-        width: 664px;
+        width: 600px;
     }
     .main-section .sidebar-section{
         width: 240px;
