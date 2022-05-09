@@ -1,0 +1,191 @@
+
+.cvs-container{
+    display: flex;
+    flex-direction: row;
+    background: #ececec;
+    margin: 0 auto;
+    justify-content: center;
+
+
+
+    .cvs-left-site{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        background-color: #1e2939;
+        color: white;
+        padding-bottom: 100px;
+
+    
+        .cvs-photo img{
+            width: 100%;
+        }
+        .cvs-contact{
+            h3{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 35px;
+                text-align: left;
+            }
+        }
+        .contact-item{
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                color:#fb6d3a
+            }
+            .item-right{
+                margin-left: 10px;
+                font-size: 1.2rem;
+                text-align: left;
+                line-height: 20px;
+            }
+        }
+        .cvs-skills{
+            text-align: left;
+            margin-left: 35px;
+            h3{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .skills-item{
+                font-size: 1.2rem;
+                margin-bottom: 5px;
+                ul{
+                    color:#fb6d3a;
+                }
+                .li-text {
+                    color: white;
+                }
+            }
+        }
+    }
+    .cvs-right-site{
+        width: 600px;
+        text-align: left;
+        margin-left: 50px;
+
+        
+        h2 {
+            margin-bottom: 20px;
+        }
+        .cvs-about-me{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            h1{
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+        }
+        .cvs-project{
+
+            .cvs-qr{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                a:hover{
+                    color:#fb6d3a;
+                    transition: 0.3s linear;
+                }
+                img{
+                    width: 100px;
+                }
+                .qr-container{
+                    margin-left: 20px;
+                }
+            }
+        }
+        .cvs-history{
+            span{
+                color: #fb6d3a;
+            }
+            p{
+                color: rgb(131, 126, 126);
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+            .cvs-history-item{
+                margin-bottom: 10px;
+                ul{
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:960px){
+    .cvs-container .cvs-left-site{
+        width: 180px;
+    }
+    .cvs-container .cvs-right-site {
+        width: 300px;
+    }
+    .cvs-left-site .cvs-contact h3{
+            font-size: 1rem;
+    }
+    .cvs-left-site .cvs-contact .contact-item{
+        font-size: 0.8rem;
+        & .item-right{
+            font-size: 0.8rem;
+        }
+    }
+    .cvs-skills h3{
+        font-size: 1rem;
+    }
+    .cvs-skills .li-text{
+        font-size: 12px;
+    }
+    .cvs-container .cvs-left-site .cvs-skills .skills-item ul {
+        margin-left: -15px;
+    }
+    .cvs-container .cvs-right-site{
+        margin-left:20px
+    }
+}
+@media screen and (max-width:512px){
+.cvs-container .cvs-left-site {
+    width: 200px;
+}
+.cvs-container .cvs-right-site {
+    width: 200px;
+}
+.cvs-right-site{
+    h3 {
+        font-size: 12px;
+        } 
+    h1{
+        font-size: 20px;
+        }
+    }
+    .cvs-container .cvs-right-site .cvs-about-me p {
+        font-size: 15px;
+    }
+    .cvs-container .cvs-right-site .cvs-history .cvs-history-item ul{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .cvs-container .cvs-right-site .cvs-project .cvs-qr{
+        flex-wrap: wrap;
+        a{
+            font-size: 15px;
+        }
+        .qr-container{
+            margin-left: 0px;
+            margin-top: 10px;
+            img{
+                width:40%;
+            }
+        }
+    }
+    .cvs-container .cvs-right-site .cvs-history p{
+        font-size: 10px;
+    }
+}
