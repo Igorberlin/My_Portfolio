@@ -161,9 +161,6 @@ const EnglishCv = () => {
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div className="cvs-skills">
-                    <h3>Soft Skills</h3>
                     <div className="skills-item">
                         <ul>
                             <li>
@@ -185,6 +182,10 @@ const EnglishCv = () => {
                             </li>
                         </ul>
                     </div>
+                </div>
+
+                <div className="cvs-skills">
+                    <h3>Soft Skills</h3>
                     <div className="skills-item">
                         <ul>
                             <li>

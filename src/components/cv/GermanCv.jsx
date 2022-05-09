@@ -161,9 +161,6 @@ const GermanCv = () => {
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div className="cvs-skills">
-                    <h3>Persönliche Fähigkeiten</h3>
                     <div className="skills-item">
                         <ul>
                             <li>
@@ -185,6 +182,10 @@ const GermanCv = () => {
                             </li>
                         </ul>
                     </div>
+                </div>
+
+                <div className="cvs-skills">
+                    <h3>Persönliche Fähigkeiten</h3>
                     <div className="skills-item">
                         <ul>
                             <li>
