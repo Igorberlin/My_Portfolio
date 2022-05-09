@@ -155,7 +155,7 @@
     width: 200px;
 }
 .cvs-container .cvs-right-site {
-    width: 200px;
+    width: 180px;
 }
 .cvs-right-site{
     h3 {
@@ -174,8 +174,10 @@
     }
     .cvs-container .cvs-right-site .cvs-project .cvs-qr{
         flex-wrap: wrap;
+        text-align: center;
+    
         a{
-            font-size: 15px;
+            font-size: 10px;
         }
         .qr-container{
             margin-left: 0px;

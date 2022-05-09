@@ -276,7 +276,7 @@ const EnglishCv = () => {
                             >
                                 https://Igorberlin.github.io/My_Portfolio
                             </a>
-                            .....[portfolio]
+                            ..[portfolio]
                         </div>
                         <div className="qr-container">
                             <img src={Qr} className="qr-code" />
