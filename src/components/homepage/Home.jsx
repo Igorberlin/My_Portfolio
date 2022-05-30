@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import HomePagePhoto from "./../../img/home-page-img.jpg";
+import HomePagePhoto from "./../../img/home-pic.jpg";
 import { CSSTransition } from "react-transition-group";
 
 import "./../../sass/homepage/homepage.scss";
