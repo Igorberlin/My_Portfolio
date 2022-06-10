@@ -73,6 +73,13 @@ const GermanCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
+                                <span className="li-text">Next.js</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
                                 <span className="li-text">JavaScript</span>
                             </li>
                         </ul>
@@ -108,7 +115,21 @@ const GermanCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
+                                <span className="li-text">TypeScript</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
                                 <span className="li-text">Bootstrap</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
+                                <span className="li-text">Bulma</span>
                             </li>
                         </ul>
                     </div>
@@ -266,8 +287,8 @@ const GermanCv = () => {
                         Ich bin Frontend-Entwickler mit Kenntnissen der
                         wichtigsten Websprachen HTML/CSS/JavaScript und habe
                         Erfahrung beim Erstellen von Web Applikationen mit der
-                        Javascript Bibliotheken wie React.js, Redux und React
-                        Router Dom. Ich habe Erfahrung mit Responsive Web
+                        Javascript Bibliotheken wie React.js, Next.js, Redux und
+                        React Router Dom. Ich habe Erfahrung mit Responsive Web
                         Design, Arbeiten mit APIs, Versionskontrolle
                         (Git/Github) sowie ein gutes Verständnis der Grundlagen
                         der Informatik. Ich bin auf der Suche nache einer Stelle

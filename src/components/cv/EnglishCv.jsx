@@ -73,6 +73,13 @@ const EnglishCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
+                                <span className="li-text">Next.js</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
                                 <span className="li-text">JavaScript</span>
                             </li>
                         </ul>
@@ -101,6 +108,13 @@ const EnglishCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
+                                <span className="li-text">TypeScript</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
                                 <span className="li-text">Redux</span>
                             </li>
                         </ul>
@@ -109,6 +123,13 @@ const EnglishCv = () => {
                         <ul>
                             <li>
                                 <span className="li-text">Bootstrap</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
+                                <span className="li-text">Bulma</span>
                             </li>
                         </ul>
                     </div>
@@ -255,10 +276,10 @@ const EnglishCv = () => {
                         I am a Frontend developer with proficiency in the core
                         web languages HTML/CSS/JavaScript and with experience
                         building web apps with Javascript libraries: React.js,
-                        Redux and React Router Dom. I have experience with
-                        responsive design, working with APIs, version control
-                        (Git/Github), as well a good understanding of computer
-                        science fundamentals.
+                        Next.js, Redux and React Router Dom. I have experience
+                        with responsive design, working with APIs, version
+                        control (Git/Github), as well a good understanding of
+                        computer science fundamentals.
                     </p>
                     <p>
                         I’m currently seeking a full-time position as a Front
