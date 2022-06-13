@@ -21,8 +21,13 @@
                 .project-header {
                     height: 30px;
                     color :$link-color;
-                    h2{
-                        margin-top: 5px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    .project-code a{
+                        color:$link-color;
+                        text-decoration: none;
                     }
                 }
                 
