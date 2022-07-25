@@ -311,7 +311,7 @@ const EnglishCv = () => {
                             Lead Sales Manager,
                             <span>Siberian Health GmbH</span>
                         </h3>
-                        <p> March 2004 - May 2021 | Berlin, Germany </p>
+                        <p> March 2014 - May 2021 | Berlin, Germany </p>
                         <ul>
                             <li>Ensuring online sales functionality</li>
                             <li>

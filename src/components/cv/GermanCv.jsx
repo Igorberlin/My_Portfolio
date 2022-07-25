@@ -322,7 +322,7 @@ const GermanCv = () => {
                             Führender Vertriebskaufmann,
                             <span>Siberian Health GmbH</span>
                         </h3>
-                        <p>März 2004 - Mai 2021|Berlin, Deutschland</p>
+                        <p>März 2014 - Mai 2021|Berlin, Deutschland</p>
                         <ul>
                             <li>
                                 Sicherstellen der Online-Verkaufsfunktionalität
