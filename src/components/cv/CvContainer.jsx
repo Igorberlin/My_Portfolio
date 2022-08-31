@@ -18,7 +18,7 @@ const CvContainer = () => {
                     <p className="Cv-title">German</p>
                     <div className="cv-download">
                         <a
-                            href="https://drive.google.com/file/d/1b_PWSwqaXOTxVTu1wZ6d9OKr3OpGIpmp/view?usp=sharing"
+                            href="https://drive.google.com/file/d/19g0KKi4FVj2eKdWbfJLCBwANQOOXFTC4/view?usp=sharing"
                             target="_blank"
                         >
                             save as PDF
@@ -34,7 +34,7 @@ const CvContainer = () => {
                     <p className="Cv-title">English</p>
                     <div className="cv-download">
                         <a
-                            href="https://drive.google.com/file/d/19g0KKi4FVj2eKdWbfJLCBwANQOOXFTC4/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1b_PWSwqaXOTxVTu1wZ6d9OKr3OpGIpmp/view?usp=sharing"
                             target="_blank"
                         >
                             save as PDF
