@@ -62,6 +62,16 @@ const GermanCv = () => {
                     </div>
                 </div>
                 <div className="cvs-skills">
+                    <h3>Staatsbürgerschaft</h3>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
+                                <span className="li-text">Deutsch</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="cvs-skills">
                     <h3>Fähigkeiten</h3>
                     <div className="skills-item">
                         <ul>
@@ -143,6 +153,13 @@ const GermanCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
+                                <span className="li-text">Selenium</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
                                 <span className="li-text">VS Code</span>
                             </li>
                         </ul>
@@ -179,6 +196,13 @@ const GermanCv = () => {
                         <ul>
                             <li>
                                 <span className="li-text">Slack</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
+                                <span className="li-text">Jira</span>
                             </li>
                         </ul>
                     </div>
@@ -288,14 +312,18 @@ const GermanCv = () => {
                         wichtigsten Websprachen HTML/CSS/JavaScript und habe
                         Erfahrung beim Erstellen von Web Applikationen mit der
                         Javascript Bibliotheken wie React.js, Next.js, Redux und
-                        React Router Dom. Ich habe Erfahrung mit Responsive Web
-                        Design, Arbeiten mit APIs, Versionskontrolle
-                        (Git/Github) sowie ein gutes Verständnis der Grundlagen
-                        der Informatik. Ich bin auf der Suche nache einer Stelle
-                        als vollzeit Front End Entwickler in einem Unternehmen
-                        mit viel Potenzial und interessanten Herausforderungen,
-                        wo ich mein Können und Wissen einsetzen und
-                        weiterentwickeln kann.
+                        React Router Dom. Ich kenne die Grundlagen des manuellen
+                        Testens und der Automatisierung.
+                        <br /> Ich habe Erfahrung mit Responsive Web Design,
+                        Arbeiten mit APIs, Versionskontrolle (Git/Github) sowie
+                        ein gutes Verständnis der Grundlagen der Informatik.{" "}
+                        <br />
+                        <br />
+                        Ich bin auf der Suche nache einer Stelle als vollzeit
+                        Front End Entwickler oder als QA Engineer in einem
+                        Unternehmen mit viel Potenzial und interessanten
+                        Herausforderungen, wo ich mein Können und Wissen
+                        einsetzen und weiterentwickeln kann.
                     </p>
                 </div>
                 <div className="cvs-project">
@@ -388,7 +416,10 @@ const GermanCv = () => {
                         <p>Mai 2021 — November 2021|Berlin, Deutschlan</p>
                         <ul>
                             <li>Informatik-Grundlagen lernen</li>
+                            <li>Erstellung von Testskripten (Jest)</li>
+                            <li>Testdurchführung von manuellen Tests</li>
                             <li>Arbeitete mit API</li>
+                            <li>Testdokumentation, Testergebnis Reporting</li>
                             <li>
                                 Miniprojekte wie Todo-Liste, Fotoalbum,
                                 Essensbestellseite, Telefonbuch, Popup-Fenster,

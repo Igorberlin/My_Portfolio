@@ -62,6 +62,16 @@ const EnglishCv = () => {
                     </div>
                 </div>
                 <div className="cvs-skills">
+                    <h3>Nationality</h3>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
+                                <span className="li-text">German</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="cvs-skills">
                     <h3>Tech Skills</h3>
                     <div className="skills-item">
                         <ul>
@@ -143,6 +153,13 @@ const EnglishCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
+                                <span className="li-text">Selenium</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
                                 <span className="li-text">VS Code</span>
                             </li>
                         </ul>
@@ -179,6 +196,13 @@ const EnglishCv = () => {
                         <ul>
                             <li>
                                 <span className="li-text">Slack</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
+                                <span className="li-text">Jira</span>
                             </li>
                         </ul>
                     </div>
@@ -276,15 +300,16 @@ const EnglishCv = () => {
                         I am a Frontend developer with proficiency in the core
                         web languages HTML/CSS/JavaScript and with experience
                         building web apps with Javascript libraries: React.js,
-                        Next.js, Redux and React Router Dom. I have experience
-                        with responsive design, working with APIs, version
-                        control (Git/Github), as well a good understanding of
-                        computer science fundamentals.
+                        Next.js, Redux and React Router Dom. I know the basics
+                        of manual testing and automation. I have experience with
+                        responsive design, working with APIs, version control
+                        (Git/Github), as well a good understanding of computer
+                        science fundamentals.
                     </p>
                     <p>
                         I’m currently seeking a full-time position as a Front
-                        End Engineer in a perspective company, where I can fully
-                        use my knowledge and skills.
+                        End Engineer or as a QA Engineer in a perspective
+                        company, where I can fully use my knowledge and skills.
                     </p>
                 </div>
                 <div className="cvs-project">
@@ -370,7 +395,10 @@ const EnglishCv = () => {
                         <p>May 2021 — November 2021 | Berlin, Germany</p>
                         <ul>
                             <li>Learning computer science basics</li>
+                            <li>Creation of test scripts (Jest)</li>
+                            <li>Testing of manual tests</li>
                             <li> Working with APIs</li>
+                            <li>Test documentation, test result reportin</li>
                             <li>
                                 Creation of mini projects with using CSS,
                                 Javascript
