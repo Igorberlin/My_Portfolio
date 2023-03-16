@@ -35,7 +35,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className="footer-copyright">
-                <p>© 2022 Igor Kuznecov</p>
+                <p>© 2023 Igor Kuznecov</p>
             </div>
         </div>
     );
