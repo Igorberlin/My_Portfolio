@@ -43,8 +43,13 @@ const Home = () => {
                             visualize my work. In November 2021 I finished one
                             of the best International IT technology schools:
                             Tel-Ran GmbH, where I got a professional degree in
-                            Fullstack Web Development and Testing. On my page
-                            you will find some information about me,{" "}
+                            Fullstack Web Development and Testing. <br />I have
+                            experience building web applicationswith JavaScript
+                            libraries such as React.js, Next.js, Redux, and
+                            React RouterDom. In addition, I am proficient in
+                            working with Low Code Platforms andhave basic
+                            knowledge of both manual and automated testing. On
+                            my page you will find some information about me,{" "}
                             <Link
                                 to="/projects"
                                 style={{ color: "rgb(250, 175, 12)" }}
@@ -60,9 +65,10 @@ const Home = () => {
                                 {" "}
                                 CV
                             </Link>{" "}
-                            . I am currently looking for a full-time front-end
-                            developer position and I am open to suggestions and
-                            negotiations.
+                            .I am currently seeking a full-time position as a
+                            Web Engineer where I canutilize my expertise and
+                            contribute to a dynamic team in a
+                            growth-orientedcompany.
                         </p>
                     </div>
                 </CSSTransition>
