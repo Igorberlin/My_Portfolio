@@ -174,14 +174,14 @@ const EnglishCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
-                                <span className="li-text">Postman</span>
+                                <span className="li-text">Draw.io</span>
                             </li>
                         </ul>
                     </div>
                     <div className="skills-item">
                         <ul>
                             <li>
-                                <span className="li-text">MongoDB</span>
+                                <span className="li-text">Postman</span>
                             </li>
                         </ul>
                     </div>
@@ -209,6 +209,13 @@ const EnglishCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
+                                <span className="li-text">Mantis</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
                                 <span className="li-text">Scrum</span>
                             </li>
                         </ul>
@@ -224,6 +231,13 @@ const EnglishCv = () => {
                         <ul>
                             <li>
                                 <span className="li-text">Agile</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
+                                <span className="li-text">Microsoft Teams</span>
                             </li>
                         </ul>
                     </div>
@@ -272,21 +286,25 @@ const EnglishCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
-                                <span className="li-text">German</span>
+                                <span className="li-text">German (fluent)</span>
                             </li>
                         </ul>
                     </div>
                     <div className="skills-item">
                         <ul>
                             <li>
-                                <span className="li-text">English</span>
+                                <span className="li-text">
+                                    English (advanced)
+                                </span>
                             </li>
                         </ul>
                     </div>
                     <div className="skills-item">
                         <ul>
                             <li>
-                                <span className="li-text">Russian</span>
+                                <span className="li-text">
+                                    Russian (native)
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -294,22 +312,29 @@ const EnglishCv = () => {
             </div>
             <div className="cvs-right-site">
                 <div className="cvs-about-me">
-                    <h3>Front End Engineer</h3>
+                    <h3>Front End Engineer | App Developer</h3>
                     <h1>Igor Kuznecov</h1>
                     <p>
-                        I am a Frontend developer with proficiency in the core
-                        web languages HTML/CSS/JavaScript and with experience
-                        building web apps with Javascript libraries: React.js,
-                        Next.js, Redux and React Router Dom. I know the basics
-                        of manual testing and automation. I have experience with
-                        responsive design, working with APIs, version control
-                        (Git/Github), as well a good understanding of computer
-                        science fundamentals.
+                        I am a front-end developer with proficiency in core web
+                        languages such asHTML, CSS, and JavaScript. I have
+                        experience building web applicationswith JavaScript
+                        libraries such as React.js, Next.js, Redux, and React
+                        RouterDom. In addition, I am proficient in working with
+                        Low Code Platforms andhave basic knowledge of both
+                        manual and automated testing. Along with mytechnical
+                        skills, I possess a deep understanding of responsive
+                        design, APIintegration, version control using
+                        Git/GitHub, and working with SQLdatabases.
+                        <br /> <br />
+                        My background in computer science fundamentals
+                        furtherstrengthens my ability to develop efficient and
+                        robust applications.
                     </p>
+                    <br />
                     <p>
-                        I’m currently seeking a full-time position as a Front
-                        End Engineer or as a QA Engineer in a perspective
-                        company, where I can fully use my knowledge and skills.
+                        I am currently seeking a full-time position as a Web
+                        Engineer where I canutilize my expertise and contribute
+                        to a dynamic team in a growth-orientedcompany.
                     </p>
                 </div>
                 <div className="cvs-project">
@@ -330,7 +355,63 @@ const EnglishCv = () => {
                     </div>
                 </div>
                 <div className="cvs-history">
+                    <h2>Education</h2>
+                    <div className="cvs-history-item">
+                        <h3>
+                            Full stack web developer and testing,
+                            <span>TelRan GmbH</span>
+                        </h3>
+                        <p>May 2021 — November 2021 | Berlin, Germany</p>
+                        <ul>
+                            <li>Learning computer science basics</li>
+                            <li>Creation of test scripts (Jest)</li>
+                            <li>Testing of manual tests</li>
+                            <li> Working with APIs</li>
+                            <li>Test documentation, test result reportin</li>
+                            <li>
+                                Creation of mini projects with using CSS,
+                                Javascript
+                                <br />
+                                and React.js such as: todo-list, photo album,
+                                food order page,
+                                <br />
+                                phone book page, popup-windows, form validation
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="cvs-history-item">
+                        <h3> University of Law and Administration</h3>
+                        <p>September 2005 - July 2010 | Pskov, Russia</p>
+                    </div>
+                </div>
+                <div className="cvs-history">
                     <h2>Employment History</h2>
+                    <div className="cvs-history-item">
+                        <h3>
+                            App Developer,
+                            <span>Scopeland Technology GmbH</span>
+                        </h3>
+                        <p> December 2022 - Present | Berlin, Germany </p>
+                        <ul>
+                            <li>Processed tasks in Jira and Mantis</li>
+                            <li>
+                                Worked on website adaptation, including site
+                                adaptation for disabled people
+                            </li>
+                            <li>Developed an ER-Diagram for the application</li>
+                            <li>Implemented website program logic</li>
+                            <li> Created documentation for the application</li>
+                            <li>
+                                Worked in the testing department (errors
+                                reproduction and documentation)
+                            </li>
+                            <li>
+                                Handled tickets related to error detection from
+                                users and developers
+                            </li>
+                            <li>Participated in daily team calls</li>
+                        </ul>
+                    </div>
                     <div className="cvs-history-item">
                         <h3>
                             Lead Sales Manager,
@@ -383,36 +464,6 @@ const EnglishCv = () => {
                             <li> Assistance in negotiations</li>
                             <li> Legal support to the team</li>
                         </ul>
-                    </div>
-                </div>
-                <div className="cvs-history">
-                    <h2>Education</h2>
-                    <div className="cvs-history-item">
-                        <h3>
-                            Full stack web developer and testing,
-                            <span>TelRan GmbH</span>
-                        </h3>
-                        <p>May 2021 — November 2021 | Berlin, Germany</p>
-                        <ul>
-                            <li>Learning computer science basics</li>
-                            <li>Creation of test scripts (Jest)</li>
-                            <li>Testing of manual tests</li>
-                            <li> Working with APIs</li>
-                            <li>Test documentation, test result reportin</li>
-                            <li>
-                                Creation of mini projects with using CSS,
-                                Javascript
-                                <br />
-                                and React.js such as: todo-list, photo album,
-                                food order page,
-                                <br />
-                                phone book page, popup-windows, form validation
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="cvs-history-item">
-                        <h3> University of Law and Administration</h3>
-                        <p>September 2005 - July 2010 | Pskov, Russia</p>
                     </div>
                 </div>
             </div>

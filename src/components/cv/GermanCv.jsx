@@ -132,6 +132,27 @@ const GermanCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
+                                <span className="li-text">Scrum</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
+                                <span className="li-text">Kanban</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
+                                <span className="li-text">Agile</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
                                 <span className="li-text">Bootstrap</span>
                             </li>
                         </ul>
@@ -174,6 +195,13 @@ const GermanCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
+                                <span className="li-text">Draw.io</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
                                 <span className="li-text">Postman</span>
                             </li>
                         </ul>
@@ -181,7 +209,21 @@ const GermanCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
-                                <span className="li-text">MongoDB</span>
+                                <span className="li-text">Mantis</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
+                                <span className="li-text">Jira</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="skills-item">
+                        <ul>
+                            <li>
+                                <span className="li-text">Microsoft Teams</span>
                             </li>
                         </ul>
                     </div>
@@ -196,34 +238,6 @@ const GermanCv = () => {
                         <ul>
                             <li>
                                 <span className="li-text">Slack</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="skills-item">
-                        <ul>
-                            <li>
-                                <span className="li-text">Jira</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="skills-item">
-                        <ul>
-                            <li>
-                                <span className="li-text">Scrum</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="skills-item">
-                        <ul>
-                            <li>
-                                <span className="li-text">Kanban</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="skills-item">
-                        <ul>
-                            <li>
-                                <span className="li-text">Agile</span>
                             </li>
                         </ul>
                     </div>
@@ -283,21 +297,27 @@ const GermanCv = () => {
                     <div className="skills-item">
                         <ul>
                             <li>
-                                <span className="li-text">Deutsch</span>
+                                <span className="li-text">
+                                    <span> Deutsch (Fließend)</span>
+                                </span>
                             </li>
                         </ul>
                     </div>
                     <div className="skills-item">
                         <ul>
                             <li>
-                                <span className="li-text">Englisch</span>
+                                <span className="li-text">
+                                    Englisch (Fortschrittlich)
+                                </span>
                             </li>
                         </ul>
                     </div>
                     <div className="skills-item">
                         <ul>
                             <li>
-                                <span className="li-text">Russisch</span>
+                                <span className="li-text">
+                                    Russisch (Muttersprache)
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -305,25 +325,30 @@ const GermanCv = () => {
             </div>
             <div className="cvs-right-site">
                 <div className="cvs-about-me">
-                    <h3>Front End Entwickler</h3>
+                    <h3>Front End Entwickler | Anwendungsentwickler</h3>
                     <h1>Igor Kuznecov</h1>
                     <p>
                         Ich bin Frontend-Entwickler mit Kenntnissen der
-                        wichtigsten Websprachen HTML/CSS/JavaScript und habe
-                        Erfahrung beim Erstellen von Web Applikationen mit der
-                        Javascript Bibliotheken wie React.js, Next.js, Redux und
-                        React Router Dom. Ich kenne die Grundlagen des manuellen
-                        Testens und der Automatisierung.
-                        <br /> Ich habe Erfahrung mit Responsive Web Design,
-                        Arbeiten mit APIs, Versionskontrolle (Git/Github) sowie
-                        ein gutes Verständnis der Grundlagen der Informatik.{" "}
+                        wichtigsten WebsprachenHTML/CSS/JavaScript und habe
+                        Erfahrung beim Erstellen von WebApplikationen mit der
+                        Javascript Bibliotheken wie React.js, Next.js, Reduxund
+                        React Router Dom. Ich beherrsche auch die Arbeit mit
+                        Low-Code-Plattformen und verfüge über grundlegende
+                        Kenntnisse sowohl in dermanuellen als auch in der
+                        automatisierten Testdurchführung.
+                        <br />
+                        <br /> Zusätzlich zumeinen technischen Fähigkeiten habe
+                        ich ein tiefes Verständnis für responsiveDesign,
+                        API-Integration, Versionskontrolle mit Git/Github und
+                        die Arbeit mitSQL-Datenbanken. Mein Hintergrund in den
+                        Grundlagen der Informatik stärktmeine Fähigkeit,
+                        effiziente und robuste Anwendungen zu entwickeln.
                         <br />
                         <br />
-                        Ich bin auf der Suche nache einer Stelle als vollzeit
-                        Front End Entwickler oder als QA Engineer in einem
-                        Unternehmen mit viel Potenzial und interessanten
-                        Herausforderungen, wo ich mein Können und Wissen
-                        einsetzen und weiterentwickeln kann.
+                        Ich suche derzeit eine Vollzeitstelle als Web-Ingenieur,
+                        wo ich meineFachkenntnisse nutzen und zu einem
+                        dynamischen Team in einemwachstumsorientierten
+                        Unternehmen beitragen kann.
                     </p>
                 </div>
                 <div className="cvs-project">
@@ -344,7 +369,68 @@ const GermanCv = () => {
                     </div>
                 </div>
                 <div className="cvs-history">
+                    <h2>Ausbildung</h2>
+                    <div className="cvs-history-item">
+                        <h3>
+                            Full stack web developer and testing,
+                            <span>TelRan GmbH</span>
+                        </h3>
+                        <p>Mai 2021 — November 2021|Berlin, Deutschlan</p>
+                        <ul>
+                            <li>Informatik-Grundlagen lernen</li>
+                            <li>Erstellung von Testskripten (Jest)</li>
+                            <li>Testdurchführung von manuellen Tests</li>
+                            <li>Arbeitete mit API</li>
+                            <li>Testdokumentation, Testergebnis Reporting</li>
+                            <li>
+                                Miniprojekte wie Todo-Liste, Fotoalbum,
+                                Essensbestellseite, Telefonbuch, Popup-Fenster,
+                                Formularvalidierung mit CSS, Javascript und
+                                React erstellt
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="cvs-history-item">
+                        <h3>Hochschule für Recht und Verwaltung</h3>
+                        <p>September 2005 - Juli 2010|Pskov, Russland</p>
+                    </div>
+                </div>
+                <div className="cvs-history">
                     <h2>Berufserfahrung</h2>
+                    <div className="cvs-history-item">
+                        <h3>
+                            Anwendungsentwickler,
+                            <span>Scopeland Technology GmbH</span>
+                        </h3>
+                        <p>Dezember 2022 - aktuell | Berlin, Deutschland</p>
+                        <ul>
+                            <li>Bearbeitung von Aufgaben in Jira und Mantis</li>
+                            <li>Arbeit an der Anpassung der Website</li>
+                            <li>
+                                Entwicklung eines ER-Diagramms für die Anwendung
+                            </li>
+                            <li>
+                                Anpassung der Website für Menschen mit
+                                Behinderungen
+                            </li>
+                            <li>
+                                Implementierung der Programmlogik auf der
+                                Website
+                            </li>
+                            <li>
+                                Erstellung von Dokumentationen für die Anwendung
+                            </li>
+                            <li>
+                                Arbeit im Testbereich (Fehlerreproduktion und
+                                Dokumentation)
+                            </li>
+                            <li>
+                                Bearbeitung von Tickets im Zusammenhang mit der
+                                Fehlererkennung von Benutzern und Entwicklern
+                            </li>
+                            <li>Teilnahme an täglichen Teamgesprächen</li>
+                        </ul>
+                    </div>
                     <div className="cvs-history-item">
                         <h3>
                             Führender Vertriebskaufmann,
@@ -404,33 +490,6 @@ const GermanCv = () => {
                             <li>Bearbeitung von Dokumenten und Verträgen</li>
                             <li>Unterstützung bei Verhandlungen</li>
                         </ul>
-                    </div>
-                </div>
-                <div className="cvs-history">
-                    <h2>Ausbildung</h2>
-                    <div className="cvs-history-item">
-                        <h3>
-                            Full stack web developer and testing,
-                            <span>TelRan GmbH</span>
-                        </h3>
-                        <p>Mai 2021 — November 2021|Berlin, Deutschlan</p>
-                        <ul>
-                            <li>Informatik-Grundlagen lernen</li>
-                            <li>Erstellung von Testskripten (Jest)</li>
-                            <li>Testdurchführung von manuellen Tests</li>
-                            <li>Arbeitete mit API</li>
-                            <li>Testdokumentation, Testergebnis Reporting</li>
-                            <li>
-                                Miniprojekte wie Todo-Liste, Fotoalbum,
-                                Essensbestellseite, Telefonbuch, Popup-Fenster,
-                                Formularvalidierung mit CSS, Javascript und
-                                React erstellt
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="cvs-history-item">
-                        <h3>Hochschule für Recht und Verwaltung</h3>
-                        <p>September 2005 - Juli 2010|Pskov, Russland</p>
                     </div>
                 </div>
             </div>
