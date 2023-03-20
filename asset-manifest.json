@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.1479ad66.chunk.css",
-    "main.js": "/My_Portfolio/static/js/main.9d1837a9.chunk.js",
-    "main.js.map": "/My_Portfolio/static/js/main.9d1837a9.chunk.js.map",
+    "main.css": "/My_Portfolio/static/css/main.fb5ae584.chunk.css",
+    "main.js": "/My_Portfolio/static/js/main.dc9dce28.chunk.js",
+    "main.js.map": "/My_Portfolio/static/js/main.dc9dce28.chunk.js.map",
     "runtime-main.js": "/My_Portfolio/static/js/runtime-main.9892d560.js",
     "runtime-main.js.map": "/My_Portfolio/static/js/runtime-main.9892d560.js.map",
     "static/js/2.38627790.chunk.js": "/My_Portfolio/static/js/2.38627790.chunk.js",
     "static/js/2.38627790.chunk.js.map": "/My_Portfolio/static/js/2.38627790.chunk.js.map",
     "index.html": "/My_Portfolio/index.html",
-    "static/css/main.1479ad66.chunk.css.map": "/My_Portfolio/static/css/main.1479ad66.chunk.css.map",
+    "static/css/main.fb5ae584.chunk.css.map": "/My_Portfolio/static/css/main.fb5ae584.chunk.css.map",
     "static/js/2.38627790.chunk.js.LICENSE.txt": "/My_Portfolio/static/js/2.38627790.chunk.js.LICENSE.txt",
     "static/media/Facebook.7fce0fac.png": "/My_Portfolio/static/media/Facebook.7fce0fac.png",
     "static/media/LI-Logo.a95afc06.png": "/My_Portfolio/static/media/LI-Logo.a95afc06.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.9892d560.js",
     "static/js/2.38627790.chunk.js",
-    "static/css/main.1479ad66.chunk.css",
-    "static/js/main.9d1837a9.chunk.js"
+    "static/css/main.fb5ae584.chunk.css",
+    "static/js/main.dc9dce28.chunk.js"
   ]
 }
