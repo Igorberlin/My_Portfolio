@@ -352,20 +352,16 @@ const GermanCv = () => {
                     </p>
                 </div>
                 <div className="cvs-project">
-                    <h2>Projekte</h2>
-                    <div className="cvs-qr">
-                        <div>
-                            <a
-                                href="https://Igorberlin.github.io/My_Portfolio"
-                                target="blank"
-                            >
-                                https://Igorberlin.github.io/My_Portfolio
-                            </a>
-                            .....[Portfolio]
-                        </div>
-                        <div className="qr-container">
-                            <img src={Qr} className="qr-code" />
-                        </div>
+                    <div>
+                        <p>Portfolio</p>
+                    </div>
+                    <div>
+                        <a
+                            href="https://Igorberlin.github.io/My_Portfolio"
+                            target="blank"
+                        >
+                            https://Igorberlin.github.io/My_Portfolio
+                        </a>
                     </div>
                 </div>
                 <div className="cvs-history">

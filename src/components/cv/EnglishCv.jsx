@@ -338,20 +338,16 @@ const EnglishCv = () => {
                     </p>
                 </div>
                 <div className="cvs-project">
-                    <h2>Projects</h2>
-                    <div className="cvs-qr">
-                        <div>
-                            <a
-                                href="https://Igorberlin.github.io/My_Portfolio"
-                                target="blank"
-                            >
-                                https://Igorberlin.github.io/My_Portfolio
-                            </a>
-                            ..[portfolio]
-                        </div>
-                        <div className="qr-container">
-                            <img src={Qr} className="qr-code" />
-                        </div>
+                    <div>
+                        <p>Portfolio</p>
+                    </div>
+                    <div>
+                        <a
+                            href="https://Igorberlin.github.io/My_Portfolio"
+                            target="blank"
+                        >
+                            https://Igorberlin.github.io/My_Portfolio
+                        </a>
                     </div>
                 </div>
                 <div className="cvs-history">
